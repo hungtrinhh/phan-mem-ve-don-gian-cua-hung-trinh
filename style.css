@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+body {
+  height: 100vh;
+}
+
+.tool {
+  display: flex;
+  align-items: center;
+  background: rgb(9, 26, 88);
+}
+
+.tool > * {
+  height: 40px;
+  width: 40px;
+  background: white;
+  margin: 5px;
+  font-size: 20px;
+  padding: 5px;
+}
+button:hover{
+  background-color: aqua;
+
+}
+button:active{
+
+background-color: aquamarine;
+
+}
